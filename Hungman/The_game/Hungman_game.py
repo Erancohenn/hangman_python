@@ -16,7 +16,7 @@ def main():
     stages.print_hangman(1)      # The first stage
     hid.hidden_start_word(word)      # Print the hidden word
     insert.insert_letter(word)      # User input - The Main Game -
-    print("The word was : " + word)      # The actual letter at the End
+    print("The word was : " + word)      # The actual word at the End
 
 
 if __name__ == "__main__":

@@ -17,5 +17,5 @@ def first_page():
     max_tries = "6"
 
     print(hangman_welcome_screen)
-    print("You have maximum of : " + max_tries + " tries")
+    print("You have maximum of : " + max_tries + " tries \n" )
 
