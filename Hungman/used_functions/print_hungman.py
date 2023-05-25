@@ -11,8 +11,6 @@ def print_hangman(num_of_tries):
             print(HANGMAN_PHOTOS[x])
 
 
-
-
 HANGMAN_PHOTOS = {1: "x-------x   ",
                   2: """x-------x
 |

@@ -23,10 +23,9 @@ def try_update_letter_guessed(letter_guessed, old_letters_guessed):
         print("Error")
 
 
-
 def main():
-    old_letters = ["r","a","p","w"]
-    x = try_update_letter_guessed("w",old_letters)
+    old_letters = ["r", "a", "p", "w"]
+    x = try_update_letter_guessed("w", old_letters)
     if x is False:
         old_letters.sort()
         print("X")

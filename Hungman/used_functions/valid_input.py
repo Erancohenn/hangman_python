@@ -18,7 +18,8 @@ def check_valid_input(letter_guessed, old_letters_guessed):
 
 def main():
     past_letters = ["a","v","s"]
-    print(check_valid_input("s",past_letters))
+    print(check_valid_input("s", past_letters))
+
 
 if __name__ == "__main__":
     main()
