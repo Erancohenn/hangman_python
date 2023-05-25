@@ -3,7 +3,7 @@ def check_valid_input(letter_guessed, old_letters_guessed):
     this function checks the input of the user 
     and validate.
     :param: letter guessed by the user
-    :type params: str
+    :type: params: str
     :return: True if valid, False if invalid
     """
     if len(letter_guessed) > 1 :
